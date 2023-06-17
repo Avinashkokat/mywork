@@ -3,9 +3,9 @@ agent {
     label 'built-in'
     }
     stages {
-      stage ('Name') {
+      stage ('wellcome') {
       steps {
-        echo "your name avinash"
+        echo "wellcome master branch"
         }
         }
         }
