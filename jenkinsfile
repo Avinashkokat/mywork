@@ -1,1 +1,12 @@
-
+pipeline {
+agent {
+    label 'built-in'
+    }
+    stages {
+      stage ('Name') {
+      steps {
+        echo "your name avinash"
+        }
+        }
+        }
+        }
