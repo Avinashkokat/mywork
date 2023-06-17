@@ -6,6 +6,7 @@ agent {
       stage ('Name') {
       steps {
         echo "your name avinash"
+        sh 'mkdir adhipurush'
         }
         }
         }
